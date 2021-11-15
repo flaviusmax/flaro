@@ -1,9 +1,9 @@
 <?php // Example 26-1: functions.php
 //header("Content-type: text/html; charset=utf-8");
   $dbhost  = 'localhost';    // Unlikely to require changing
-  $dbname  = 'flaro';   // Modify these...
-  $dbuser  = 'flavi';   // ...variables according
-  $dbpass  = 'zzxxzz';   // ...to your installation
+  $dbname  = '';   // Modify these...
+  $dbuser  = '';   // ...variables according
+  $dbpass  = '';   // ...to your installation
   $appname = "FlaRo"; // ...and preference
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
